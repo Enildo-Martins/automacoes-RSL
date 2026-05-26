@@ -1,0 +1,22 @@
+# ============================================================
+# requirements.txt — automacoes_RSL
+# Instale com: pip install -r requirements.txt
+# ============================================================
+
+# Triagem automática com IA
+lattereview
+
+# Avaliação de qualidade — API Gemini
+google-generativeai
+
+# Manipulação de dados
+pandas
+openpyxl
+xlrd
+
+# Automação do navegador (Parsifal)
+selenium
+webdriver-manager
+
+# Barra de progresso
+tqdm

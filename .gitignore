@@ -1,0 +1,62 @@
+# ============================================================
+# .gitignore — automacoes_RSL
+# ============================================================
+
+# --- Credenciais e chaves de API (NUNCA suba isso!) ---
+.env
+*.env
+config_local.py
+secrets.py
+
+# --- Dados sensíveis / arquivos gerados ---
+*.csv
+*.xlsx
+*.xls
+*.pdf
+log_automacao.txt
+triagem_parcial.csv
+
+# --- Arquivos de diagnóstico gerados pelo diagnostico.py ---
+pagina_lista.html
+pagina_modal.html
+screenshot_lista.png
+screenshot_modal.png
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
